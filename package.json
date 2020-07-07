@@ -15,7 +15,7 @@
     "build": "electron-packager ./ SteamIdle --platform=win32 --icon=assets/icon.ico --electron-version=1.3.15 --arch=ia32 --out=./releases --prune --win32metadata.ProductName=SteamIdle --win32metadata.FileDescription=\"Steam Idler\" --win32metadata.CompanyName=\"Rekt Division\" --ignore=\"(/app|.gitignore|webpack.config.babel.js|.babelrc|/releases).*\""
   },
   "devDependencies": {
-    "electron": "^1.6.6",
+    "electron": "^9.1.0",
     "electron-packager": "^8.6.0"
   }
 }
